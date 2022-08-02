@@ -1870,7 +1870,6 @@ nav#menu span.fa.fa-bars:hover {
 /* team members tow */
 .team-members-tow figure {
   position: relative;
-  justify-content: center ;
   cursor: pointer;
 }
 
