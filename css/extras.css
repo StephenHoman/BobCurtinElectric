@@ -311,5 +311,5 @@ a:focus:not([href]):not([tabindex]), a:hover:not([href]):not([tabindex]) {
 }
 .controls .active {
   color: #fff !important;
-  border-color: #EB586F;
+  border-color: red;
 }
