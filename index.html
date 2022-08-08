@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script>
+    var CleanCSS = require('clean-css');
+    var input = 'a{font-weight:bold;}';
+    var options = { /* options */ };
+    var output = new CleanCSS(options).minify(input);
+  </script>
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
