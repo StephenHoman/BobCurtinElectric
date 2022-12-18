@@ -1,3 +1,21 @@
+
+.unb
+{
+  transition: none;
+  background-color: linear-gradient(45deg, #2937f0, #9f1ae2);
+  background: linear-gradient(45deg, #2937f0, #9f1ae2);
+  color: white;
+  text-shadow: #000;
+  border-color: rgb(0, 13, 255);
+  border-radius: 5px;
+}
+.unb:hover
+{
+  color: #ffffff;
+  background: linear-gradient(45deg, #9f1ae2, #2937f0);
+   
+}
+
 .section-title {
   color: #585b60;
   font-size: 38px;
