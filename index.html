@@ -44,7 +44,31 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="fOb9QmRu"></script>
     <!--Facebook JS tag for embedded reviews end -->
 
-    <!-- Header Area wrapper Starts -->
+    <!-- META FB START -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '{787341146369060}',
+          cookie     : true,
+          xfbml      : true,
+          version    : '{api-version}'
+        });
+          
+        FB.AppEvents.logPageView();   
+          
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- META FB END -->
+
+<!-- Header Area wrapper Starts -->
     <header id="header-wrap">
       <!-- Navbar Start -->
       <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
